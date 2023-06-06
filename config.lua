@@ -68,7 +68,7 @@ CONFIG.use_sonorancad = false
 CONFIG.keyDefaults =
 {
 	-- Remote control key
-	remote_control = "f5",
+	remote_control = "f4",
 
 	-- Radar key lock key
 	key_lock = "l",
@@ -113,7 +113,7 @@ CONFIG.menuDefaults =
 
 	-- The speed unit used in conversions
 	-- Options: mph or kmh
-	["speedType"] = "mph",
+	["speedType"] = "kmh",
 
 	-- The state for automatic speed locking. This requires CONFIG.allow_fast_limit to be true.
 	-- Options: true or false
@@ -131,9 +131,9 @@ CONFIG.uiDefaults =
 	-- Options: 0.25 - 2.5
 	scale =
 	{
-		radar = 0.75,
-		remote = 0.75,
-		plateReader = 0.75
+		radar = 0.45,
+		remote = 0.55,
+		plateReader = 0.60
 	},
 
 	-- The safezone size, must be a multiple of 5.
